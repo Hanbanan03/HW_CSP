@@ -18,5 +18,7 @@ eyes = "Blue"
 print (eyes)
 age = "14"
 print(age)
-subject = "history"
+subject = input("what is your favorite subject in school")
 print (subject)
+fav_subject = input("what is your favorite subject in school?")
+print(fav_subject)
