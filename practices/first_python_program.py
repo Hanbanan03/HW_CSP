@@ -1,3 +1,3 @@
-name = "Hannah";
+name = "hannah";
 
 print("Hello "+ name + "!")
