@@ -2,9 +2,11 @@
 
 age = int(input("How old are you?: "))
 
-if age <= 4:
-    print("You can go to school!")
-elif age <= 15:
-    print("You can get a learners permit!)
-else age <= 16:
-    print("You can drive!")
+if age >= 18:
+    print(f"You are {age}, you can vote!")
+elif age >= 16:
+    print(f"You are {age} you can drive!")
+elif age >= 15:
+    print(f"You are {age}, you can get your learners permit!")
+elif age >= 4:
+    print(f"You are {age}, you can go to school!")
