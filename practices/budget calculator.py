@@ -2,7 +2,6 @@
 
 income = float(input("what is your monthly income: "))
 rent = float(input("What is you monthly rent: "))
-
 utilities = float(input("what is your monthly utilites: "))
 groceries = float(input("what is your monthly groceries: "))
 transportation = float(input("what is your monthly transportation: "))
