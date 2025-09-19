@@ -8,6 +8,7 @@ readable_time = time.ctime(epoch)
 
 print(f"The in seconds time since Jan 1, 1970 {epoch} ")
 print(f"The time is: {readable_time}")
+now = datetime.datetime.now()
 hour = now.hour
 
 now = datetime.datetime.now()
