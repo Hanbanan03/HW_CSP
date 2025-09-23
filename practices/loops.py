@@ -6,11 +6,11 @@ for food in foods:
     print(f"{food} is my favorite food!")
     
 #What is a loop? loops repeat the code in them for a specified number of times
-#What are the two types of loops?
+#What are the two types of loops? while loop and for loops
 #What is iteration? repetition of the same code
 #What are lists? a list is a collection of data
-#How do you make lists in python? 
-#How do you make for loops in python? 
+#How do you make lists in python? using square brackets
+#How do you make for loops in python? for i in range(5) put code here
 #How do you make while loops in python? it breaks your information down into 3 parts (interator, set stopping point, increase iterator)
 
 """i = 0
