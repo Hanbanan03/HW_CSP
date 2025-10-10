@@ -2,24 +2,16 @@
 #include <stdio.h>
 #include <string.h>
 
-
 int main(void) {
-    char noun[50];
-    char adjective[50];
-    char verb[50];
+    char name[30];
+    printf("What is your name: ");
+    scanf("%s", name);
+    while (getchar() != '\n');
 
-    printf("Give me a noun: ");
-    fgets(noun, sizeof(noun), stdin);
-    noun[strcat(noun, "\n")] = 0;
-
-    printf("Give me an adjective: ");
-    fgets(adjective, sizeof(adjective), stdin);
-    adjective[strcat(adjective, "\n")] = 0; 
-    printf("Give me a verb: ");
-    fgets(verb, sizeof(verb), stdin);
-    verb[strcat(verb, "\n")] = 0; 
-
-    printf("I saw a %s %s today. It began to %s right in front of me. I couldn't believe it!\n", adjective, noun, verb);
+    char decorated_name[50] = "<<< ";
+    strcat(decorated_name, name);
+    strcat(decorated_name, " >>>");
+    printf("%s\n", decorated_name);
 
     return 0;
 }
