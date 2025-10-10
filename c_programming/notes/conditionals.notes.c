@@ -27,7 +27,7 @@ int main(void){
     }
 
 //What puts something inside of the “if” statement?
-//: curly brackets
+//: parenthesis
 //How are conditions written in C?
 //: if else if and else
 //How do we write elif conditions in C?
